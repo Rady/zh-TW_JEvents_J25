@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.6" type="file" client="site" method="upgrade">
+<name>JEvents - Traditional Chinese Language Pack</name>
+<tag>zh-TW</tag>
+<packagename>zh-TW JEvents</packagename>
+<version>2.5.7</version>
+<creationdate>2012.09.28</creationdate>
+<author>Rady</author>
+<authoremail>
+</authoremail>
+<authorurl>http://www.radys.cn/</authorurl>
+<copyright>
+</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<description>Traditional Chinese trpackage for JEvents 2.0</description>
+<fileset>
+<files folder="admin" target="administrator/language/zh-TW">
+	<filename>zh-TW.com_jevents.ini</filename>
+	<filename>zh-TW.com_jevents.menu.ini</filename>
+	<filename>zh-TW.com_jevents.sys.ini</filename>
+</files>
+<files folder="site" target="language/zh-TW">
+	<filename>zh-TW.com_jevents.ini</filename>
+</files>
+</fileset>
+</extension>
